@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sales-intel-core-showcase"
+version = "2.0.0"
+description = "脱敏的销售情报自动化架构展示"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Shawn Xiao"}]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

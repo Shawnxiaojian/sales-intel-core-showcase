@@ -1,0 +1,6 @@
+{
+  "execution_mode": "simulation",
+  "minimum_follow_up_score": 65,
+  "require_approval_for_external_write": true
+}
+
