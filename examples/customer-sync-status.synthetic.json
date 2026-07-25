@@ -1,0 +1,23 @@
+{
+  "runAt": "2026-07-25T14:01:31.108Z",
+  "mode": "incremental",
+  "engine": "Mac local rules engine",
+  "sourceCount": 2,
+  "customerCount": 120,
+  "statusCounts": {
+    "valid": 24,
+    "pending": 18,
+    "invalid": 16,
+    "uncontacted": 62
+  },
+  "delta": {
+    "added": 0,
+    "changed": 0,
+    "removed": 0
+  },
+  "quality": {
+    "cleanCustomers": 73,
+    "highPriorityCustomers": 28
+  },
+  "notice": "Synthetic demonstration data only. No production customer records are included."
+}
