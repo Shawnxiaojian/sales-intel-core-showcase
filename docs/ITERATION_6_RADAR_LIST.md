@@ -20,6 +20,10 @@ The demand radar interface now uses the complete deduplicated signal feed rather
 - Filter-safe selection: when filters remove the selected signal, the first remaining result is selected automatically
 - Empty-result safety: when no signal matches, the detail panel switches to an explicit empty state and never displays stale customer information
 - Detail navigation: previous/next controls move through the currently filtered and sorted result set
+- Provenance separation: opportunity-signal evidence and key-person/contact evidence are separate first-class records and never share a substitute URL
+- Multiple key people: one company may carry independent HR, procurement, technical, finance, or other contact records, each with its own role, phone, verification state, and source URL
+- Sales-verified correction: a confirmed call result may override stale imported provenance without editing the two sales-facing workbooks
+- Missing-source safety: a contact without reliable provenance is labelled “来源待核验” instead of linking to the company’s tender or news event
 
 The current source workbooks contain no owner column, so all 22 signals truthfully remain unassigned until a sales owner is added to either business workbook. The published showcase reports aggregate coverage only and does not expose production customer names or signal records.
 
