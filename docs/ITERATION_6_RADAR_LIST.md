@@ -24,6 +24,11 @@ The demand radar interface now uses the complete deduplicated signal feed rather
 - Multiple key people: one company may carry independent HR, procurement, technical, finance, or other contact records, each with its own role, phone, verification state, and source URL
 - Sales-verified correction: a confirmed call result may override stale imported provenance without editing the two sales-facing workbooks
 - Missing-source safety: a contact without reliable provenance is labelled “来源待核验” instead of linking to the company’s tender or news event
+- Mobile completion: desktop signal rows become compact mobile cards with only company, source/evidence, title, urgency, and score
+- Mobile detail safety: the linked detail panel uses a single-column layout and appears before the result list
+- Mobile interaction: selecting a signal scrolls the user to its updated detail panel
+- Narrow-screen fallback: filters and metrics switch to one column at 390px, with no horizontal page overflow
+- Touch targets: filters, detail navigation, contact-source links, and opportunity-source links use mobile-sized controls
 
 The current source workbooks contain no owner column, so all 22 signals truthfully remain unassigned until a sales owner is added to either business workbook. The published showcase reports aggregate coverage only and does not expose production customer names or signal records.
 
