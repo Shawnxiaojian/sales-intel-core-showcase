@@ -4,14 +4,13 @@ The demand radar interface now uses the complete deduplicated signal feed rather
 
 - Complete event coverage: 22/22
 - Matched company coverage: 14
-- Validated action recommendation coverage: 22/22
-- Traceable source coverage: 22/22
-- Default ordering: action urgency first, then intent score descending within each urgency level
-- Optional ordering: intent score strictly descending, then action urgency for equal scores
-- Search coverage: company name, commonly used company short name, owner, signal title, and signal excerpt
-- Search normalization: case-insensitive and whitespace-insensitive
-- Supported interactions: unified search, source filter, sorting switch, and linked detail view
+- Default ordering: action urgency, then intent score
+- Optional ordering: intent score strictly descending
+- Search coverage: company, company short name, owner, title, and excerpt
+- Owner filtering: complete, with per-owner counts and reset support
+- Owner inheritance: matched signals inherit the customer owner from supported Excel owner columns
+- Missing owner policy: display “待分配”; never infer an owner from the customer contact or fabricate ownership
 
-Search acceptance is complete at 5/5 cases, including company short names and owner names. The published showcase reports aggregate coverage only and does not expose production customer names or sensitive source records.
+The current source workbooks contain no owner column, so all 22 signals truthfully remain unassigned until a sales owner is added to either business workbook. The published showcase reports aggregate coverage only and does not expose production customer names or signal records.
 
-The list generation and verification step runs locally, requiring no model calls or external-search credits.
+Generation and verification run locally with no model calls or external-search credits.
