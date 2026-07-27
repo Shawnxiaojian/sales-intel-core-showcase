@@ -1,0 +1,15 @@
+{
+  "completion": 95,
+  "companiesPlanned": 40,
+  "companiesCompleted": 40,
+  "companiesWithSignals": 16,
+  "qualifiedSignals": 27,
+  "firstPassPaidSearches": 40,
+  "cachedPassPaidSearches": 0,
+  "cacheHits": 40,
+  "retries": 0,
+  "errors": 0,
+  "aiCalls": 0,
+  "perCompanyRequestLimit": 1,
+  "notice": "Synthetic demonstration data only. No production customer or signal records are included."
+}
